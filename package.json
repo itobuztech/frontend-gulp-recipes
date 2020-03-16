@@ -16,6 +16,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-iconfont": "^10.0.3",
-    "gulp-iconfont-css": "^3.0.0"
+    "gulp-iconfont-css": "^3.0.0",
+    "require-dir": "^1.2.0",
+    "app-root-path": "^3.0.0"
   }
 }
