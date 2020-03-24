@@ -2,22 +2,26 @@
   "name": "frontend-gulp-recipes",
   "version": "1.0.0",
   "private": true,
-  "engines": {
-    "node": ">=4.2.4"
+  "scripts": {
+    "serve": "./node_modules/.bin/gulp  serve",
+    "scripts": "./node_modules/.bin/gulp  scripts"
   },
-  "dependencies": {
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "app-root-path": "^3.0.0",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
     "gulp-cssnano": "^2.1.3",
+    "gulp-iconfont": "^10.0.3",
+    "gulp-iconfont-css": "^3.0.0",
     "gulp-livereload": "^4.0.2",
     "gulp-load-plugins": "^2.0.2",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-iconfont": "^10.0.3",
-    "gulp-iconfont-css": "^3.0.0",
     "require-dir": "^1.2.0",
-    "app-root-path": "^3.0.0"
+    "@babel/preset-env": "^7.9.0"
   }
 }
