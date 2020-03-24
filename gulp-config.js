@@ -1,7 +1,17 @@
 var appRoot = require('app-root-path');
 
 
-module.exports = {
+const config = {
   themeFolder : appRoot + '/theme/',
-  fontName: 'Icons'
+  fontName: 'Icons',
+
+  dist: '/dist',
+
+  cleanPaths: [
+    appRoot + '/dist/scripts',
+    appRoot + '/dist/scss'
+  ]
 }
+
+
+module.exports  = config;

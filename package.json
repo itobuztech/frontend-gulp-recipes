@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "./node_modules/.bin/gulp  serve",
-    "scripts": "./node_modules/.bin/gulp  scripts"
+    "scripts": "./node_modules/.bin/gulp  scripts",
+    "build": "gulp publish && gulp clean"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
